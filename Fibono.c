@@ -8,14 +8,14 @@ int main()
 
   int nextTerm = t1 + t2;
 
-  printf("Enter the number of terms: ");
+  printf("Enter the number of terms: \n");
   scanf("%d", &n);
 
-  printf("Fibonacci Series: %d, %d, ", t1, t2);
+  printf("Fibonacci Series: %d, %d, \n", t1, t2);
 
-  	for (i = 1; i <= n; ++i) 
+  	for (i = 3; i <= n; ++i) 
   	{
-   	 	printf("%d, ", nextTerm);
+   	 	printf("%d, \n", nextTerm);
     	t1 = t2;
    		t2 = nextTerm;
     	nextTerm = t1 + t2;
